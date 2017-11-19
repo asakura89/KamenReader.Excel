@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>KamenReader.Excel</id>
+        <version>1.0.2017.0119</version>
+        <authors>asakura89</authors>
+        <owners>asakura89</owners>
+        <projectUrl>https://github.com/asakura89/KamenReader.Excel</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>KamenReader.Excel</title>
+        <description>Simple excel file reader.</description>
+        <copyright>Copyright 2017</copyright>
+        <tags>fixedlength text file reader</tags>
+    </metadata>
+    <files>
+        <file src="\build\net40\KamenReader.Excel.dll" target="lib\net40" />
+        <file src="\build\net40\KamenReader.Excel.pdb" target="lib\net40" />
+        <file src="\build\net45\KamenReader.Excel.dll" target="lib\net45" />
+        <file src="\build\net45\KamenReader.Excel.pdb" target="lib\net45" />
+    </files>
+</package>
