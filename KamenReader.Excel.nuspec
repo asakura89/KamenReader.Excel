@@ -10,7 +10,12 @@
         <title>KamenReader.Excel</title>
         <description>Simple excel file reader.</description>
         <copyright>Copyright 2017</copyright>
-        <tags>fixedlength text file reader</tags>
+        <tags>excel file reader</tags>
+        <dependencies>
+            <dependency id="DocumentFormat.OpenXml" version="2.5" />
+            <dependency id="KamenReader" version="1.0.2017.119" />
+            <dependency id="SpreadsheetLight" version="3.4.9" />
+        </dependencies>
     </metadata>
     <files>
         <file src="\build\net40\KamenReader.Excel.dll" target="lib\net40" />
