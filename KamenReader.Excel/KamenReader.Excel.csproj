@@ -59,8 +59,8 @@
       <HintPath>..\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="KamenReader, Version=1.0.2017.119, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\KamenReader.1.0.2017.119\lib\net40\KamenReader.dll</HintPath>
+    <Reference Include="KamenReader, Version=1.0.2018.316, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\KamenReader.1.0.2018.316\lib\net40\KamenReader.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="SpreadsheetLight, Version=3.4.9.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">

@@ -17,12 +17,6 @@ namespace KamenReader.Excel
             var result = new FileReaderResult();
             using (var doc = new SLDocument(fullFilepath))
             {
-                /*
-                if (String.IsNullOrEmpty(sheetName))
-                    sheetName = doc.GetCurrentWorksheetName();
-
-                doc.SelectWorksheet(sheetName);
-                */
                 doc.SelectWorksheet(doc.GetCurrentWorksheetName());
                 var stats = doc.GetWorksheetStatistics();
                 for (int row = 1; row <= stats.EndRowIndex; row++)
