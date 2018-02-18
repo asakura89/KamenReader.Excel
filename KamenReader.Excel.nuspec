@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>KamenReader.Excel</id>
-        <version>1.0.2018.0326</version>
+        <version>1.0.2018.0418</version>
         <authors>asakura89</authors>
         <owners>asakura89</owners>
         <projectUrl>https://github.com/asakura89/KamenReader.Excel</projectUrl>
@@ -13,7 +13,7 @@
         <tags>excel file reader</tags>
         <dependencies>
             <dependency id="DocumentFormat.OpenXml" version="2.5" />
-            <dependency id="KamenReader" version="1.0.2018.316" />
+            <dependency id="KamenReader" version="1.0.2018.0418" />
             <dependency id="SpreadsheetLight" version="3.4.9" />
         </dependencies>
     </metadata>
